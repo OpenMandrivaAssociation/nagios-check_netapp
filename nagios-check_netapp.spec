@@ -1,17 +1,12 @@
-%define name	nagios-check_netapp
-%define version	20060619
-%define release	%mkrel 1
-
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
 Summary:	Check Network Appliance (NetApp) filers
+Name:		nagios-check_netapp
+Version:	20060619
+Release:	%mkrel 1
 Group:		Networking/Other
 License:	BSD
 URL:		http://nerhood.homeip.net/wordpress/archives/2006/06/19/monitoring-netapp-with-nagios-and-nagiosgraph/
 Source0:	http://nerhood.homeip.net/code/check_netapp
-BuildArch:  noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Use this plugin with Nagios to check Network Appliance (NetApp) filers.
@@ -42,4 +37,3 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_libdir}/nagios/plugins/check_netapp
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_netapp.cfg
-
