@@ -1,7 +1,7 @@
 Summary:	Check Network Appliance (NetApp) filers
 Name:		nagios-check_netapp
 Version:	20060619
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		Networking/Other
 License:	BSD
 URL:		http://nerhood.homeip.net/wordpress/archives/2006/06/19/monitoring-netapp-with-nagios-and-nagiosgraph/
