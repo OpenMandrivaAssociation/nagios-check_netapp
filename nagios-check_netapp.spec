@@ -40,3 +40,28 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_datadir}/nagios/plugins/check_netapp
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_netapp.cfg
+
+
+%changelog
+* Sat Dec 11 2010 Oden Eriksson <oeriksson@mandriva.com> 20060619-4mdv2011.0
++ Revision: 620461
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 20060619-3mdv2010.0
++ Revision: 440218
+- rebuild
+
+* Mon Dec 15 2008 Guillaume Rousse <guillomovitch@mandriva.org> 20060619-2mdv2009.1
++ Revision: 314638
+- now a noarch package
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - this is no noarch package
+
+* Fri Feb 29 2008 Guillaume Rousse <guillomovitch@mandriva.org> 20060619-1mdv2008.1
++ Revision: 176824
+- import nagios-check_netapp
+
+
+* Fri Feb 29 2008 Guillaume Rousse <guillomovitch@mandriva.org> 20060619-1mdv2008.1
+- first mdv release
