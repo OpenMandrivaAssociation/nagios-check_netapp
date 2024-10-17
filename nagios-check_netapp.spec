@@ -4,7 +4,7 @@ Version:	20060619
 Release:	5
 Group:		Networking/Other
 License:	BSD
-URL:		http://nerhood.homeip.net/wordpress/archives/2006/06/19/monitoring-netapp-with-nagios-and-nagiosgraph/
+URL:		https://nerhood.homeip.net/wordpress/archives/2006/06/19/monitoring-netapp-with-nagios-and-nagiosgraph/
 Source0:	http://nerhood.homeip.net/code/check_netapp
 BuildArch:  noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
